@@ -216,12 +216,12 @@ in
   clion = buildClion rec {
     name = "clion";
     version = "eap";
-    build = "140.1740.3";
+    build = "140.2310.6";
     description  = "C/C++ IDE. New. Intelligent. Cross-platform.";
     license = stdenv.lib.licenses.unfree;
     src = fetchurl {
       url = "https://download.jetbrains.com/cpp/${name}-${build}.tar.gz";
-      sha256 = "1hpsq37hq61id836wg5j6l3xapln6qdkqa10r3ig2p1rs2hq7i9y";
+      sha256 = "801cdc33cb2080c509d9a304cb72aa0d9b181857e5d5a412a5d7a5cc63fdcce4";
     };
   };
 
