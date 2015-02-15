@@ -271,25 +271,25 @@ in
 
   pycharm-community = buildPycharm rec {
     name = "pycharm-community-${version}";
-    version = "4.0.1";
-    build = "139.574";
-    description = "PyCharm 4.0 Community Edition";
+    version = "4.0.4";
+    build = "139.1001";
+    description = "PyCharm Community Edition";
     license = stdenv.lib.licenses.asl20;
     src = fetchurl {
       url = "http://download.jetbrains.com/python/${name}.tar.gz";
-      sha256 = "0jh0sxi5dpgpw7ga018fby7zvb4i9k49vwl8422lfcrgckdz9nv2";
+      sha256 = "14a6a7dc809afd307fcc1e4b39cc6b9f7e61aa44b59a952d7f4cbbf1172ff300";
     };
   };
 
   pycharm-professional = buildPycharm rec {
     name = "pycharm-professional-${version}";
-    version = "4.0.1";
-    build = "139.574";
-    description = "PyCharm 4.0 Professional Edition";
+    version = "4.0.4";
+    build = "139.1001";
+    description = "PyCharm Professional Edition";
     license = stdenv.lib.licenses.unfree;
     src = fetchurl {
       url = "http://download.jetbrains.com/python/${name}.tar.gz";
-      sha256 = "04yjhg6vi2kz00sy8zg4wkz26ai90vbp0cnd850ynsab0jsy24w4";
+      sha256 = "c2469a086e68304ad47f365fc34e0313c1fb645c9a914582fa2db98ce4814d1a";
     };
   };
 
