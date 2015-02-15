@@ -259,13 +259,13 @@ in
 
   ruby-mine = buildRubyMine rec {
     name = "ruby-mine-${version}";
-    version = "7.0";
-    build = "135.1104";
+    version = "7.0.4";
+    build = "139.1231";
     description = "The Most Intelligent Ruby and Rails IDE";
     license = stdenv.lib.licenses.unfree;
     src = fetchurl {
       url = "http://download.jetbrains.com/ruby/RubyMine-${version}.tar.gz";
-      sha256 = "0xsx44gaddarkw5k4yjidzwkayf2xvsxklfzdnzcck4rg4vyk4v4";
+      sha256 = "68740f9055e1c8b2f82979d6a471f76cf65a724a7a4d307d588997c5188f6021";
     };
   };
 
